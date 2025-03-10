@@ -15,10 +15,20 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: 'Your site description' },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Your site description',
+        },
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
+    baseURL: '/your-repo-name/',
+  },
+
+  target: 'static', // 정적 사이트로 빌드
+  generate: {
+    fallback: '404.html', // SPA 모드 지원 (GitHub Pages에서 새로고침 문제 해결)
   },
   // app: {
   //   pageTransition: { name: 'page', mode: 'out-in' },
@@ -55,11 +65,45 @@ export default defineNuxtConfig({
         cancel: '취소',
         pending: '대기',
         completed: '완료',
-        dayNames: ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'],
+        dayNames: [
+          '일요일',
+          '월요일',
+          '화요일',
+          '수요일',
+          '목요일',
+          '금요일',
+          '토요일',
+        ],
         dayNamesShort: ['일', '월', '화', '수', '목', '금', '토'],
         dayNamesMin: ['일', '월', '화', '수', '목', '금', '토'],
-        monthNames: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
-        monthNamesShort: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'],
+        monthNames: [
+          '1월',
+          '2월',
+          '3월',
+          '4월',
+          '5월',
+          '6월',
+          '7월',
+          '8월',
+          '9월',
+          '10월',
+          '11월',
+          '12월',
+        ],
+        monthNamesShort: [
+          '1월',
+          '2월',
+          '3월',
+          '4월',
+          '5월',
+          '6월',
+          '7월',
+          '8월',
+          '9월',
+          '10월',
+          '11월',
+          '12월',
+        ],
         dateFormat: 'yy-mm-dd',
         firstDayOfWeek: 0,
         today: '오늘',
@@ -173,10 +217,12 @@ export default defineNuxtConfig({
         path: resolve(__dirname, dir),
         extensions: ['vue'],
       }),
-      ...glob.sync('pages/pub/**/components', { cwd: __dirname }).map((dir) => ({
-        path: resolve(__dirname, dir),
-        extensions: ['vue'],
-      })),
+      ...glob
+        .sync('pages/pub/**/components', { cwd: __dirname })
+        .map((dir) => ({
+          path: resolve(__dirname, dir),
+          extensions: ['vue'],
+        }))
     ),
   ],
   build: {
@@ -223,11 +269,7 @@ export default defineNuxtConfig({
     build: {
       sourcemap: process.env.NODE_ENV !== 'production', // Enable source map generation in development mode only
       // 이거 target 을 올려줘야 top-level-await 에러가 build 시 안나옴.
-      //target: 'ES2022',
-      target: 'static', // 정적 웹사이트임을 명시
-      router: {
-        base: '/ibk_front/', // github repository 이름 넣기
-      },
+      target: 'ES2022',
       minify: 'terser', // minify 해주는애.
       terserOptions: {
         compress: {
@@ -277,5 +319,8 @@ export default defineNuxtConfig({
     },
     /* */
   },
-  plugins: ['@/plugins/primevue.js', { src: '~/plugins/froala.js', mode: 'client' }],
+  plugins: [
+    '@/plugins/primevue.js',
+    { src: '~/plugins/froala.js', mode: 'client' },
+  ],
 });

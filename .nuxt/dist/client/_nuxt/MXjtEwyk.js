@@ -1,0 +1,1 @@
+import{u as e}from"./CpYj7tfd.js";import{p as o}from"./BL-uwq_y.js";const s=(...s)=>{const t=o().proxy.$props,p=Object.create(null);for(const o of s)if("string"==typeof o)p[o]=e(t,o,void 0,{eventName:`update:${o}`,passive:!0});else{const[s,r=s,a=`update:${s}`,n={}]=o;p[s]=e(t,r,void 0,{eventName:a,passive:!0,...n})}return p};export{s as _};
