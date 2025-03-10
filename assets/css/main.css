@@ -1,0 +1,15 @@
+@import url('../fonts/roboto.css');
+@import url('./reset.css');
+@import url('./sidebar.css');
+@import url('./tooltip.css');
+@import url('./skeleton.css');
+@import url('./scrollbar.css');
+@import url('./package.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.vt-border-t-sky-400 {
+  border-top-color: black;
+}

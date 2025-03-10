@@ -1,0 +1,940 @@
+.ibk {
+  &-icon {
+    &-lectureroom {
+      &-folder-plus {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/folder-plus.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-camera {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/camera.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-camera-on {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/camera-on.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-tv {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/tv.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-tv-on {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/tv-on.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-play {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/play.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-play-on {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/play-on.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-intersection {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/intersection.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-intersection-on {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/intersection-on.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-book {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/book.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-book-on {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/book-on.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-document {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/document.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-document-on {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/document-on.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-chat {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/chat.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-chat-on {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/lectureroom/chat-on.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+    }
+    &-80 {
+      &-liveplay {
+        display: block;
+        min-width: 80px;
+        width: 80px;
+        height: 80px;
+        background: url(../images/icon/80/live-play.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+    }
+    &-76 {
+      &-chat {
+        display: block;
+        min-width: 76px;
+        width: 76px;
+        height: 76px;
+        background: url(../images/icon/76/chat.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+    }
+    &-56 {
+      &-quick01 {
+        display: block;
+        min-width: 56px;
+        width: 56px;
+        height: 56px;
+        background: url(../images/icon/56/quick01.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-quick02 {
+        display: block;
+        min-width: 56px;
+        width: 56px;
+        height: 56px;
+        background: url(../images/icon/56/quick02.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-quick03 {
+        display: block;
+        min-width: 56px;
+        width: 56px;
+        height: 56px;
+        background: url(../images/icon/56/quick03.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-quick04 {
+        display: block;
+        min-width: 56px;
+        width: 56px;
+        height: 56px;
+        background: url(../images/icon/56/quick04.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-quick05 {
+        display: block;
+        min-width: 56px;
+        width: 56px;
+        height: 56px;
+        background: url(../images/icon/56/quick05.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-quick06 {
+        display: block;
+        min-width: 56px;
+        width: 56px;
+        height: 56px;
+        background: url(../images/icon/56/quick06.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-quick07 {
+        display: block;
+        min-width: 56px;
+        width: 56px;
+        height: 56px;
+        background: url(../images/icon/56/quick07.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-quick08 {
+        display: block;
+        min-width: 56px;
+        width: 56px;
+        height: 56px;
+        background: url(../images/icon/56/quick08.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+    }
+    &-48 {
+      &-message {
+        display: block;
+        min-width: 48px;
+        width: 48px;
+        height: 48px;
+        background: url(../images/icon/48/message.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+    }
+    &-40 {
+      &-main-close {
+        display: block;
+        min-width: 40px;
+        width: 40px;
+        height: 40px;
+        background: url(../images/icon/40/main-close.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+    }
+    &-36 {
+      &-alarm {
+        display: block;
+        min-width: 36px;
+        width: 36px;
+        height: 36px;
+        background: url(../images/icon/36/header-alarm.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+    }
+    &-32 {
+      &-close {
+        display: block;
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+        background: url(../images/icon/32/close.svg) no-repeat 50% 50%;
+        background-size: 24px 24px;
+      }
+      &-alarm {
+        display: block;
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+        background: url(../images/icon/32/alarm.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-search {
+        display: block;
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+        background: url(../images/icon/32/search.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-menu {
+        display: block;
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+        background: url(../images/icon/32/menu.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-like {
+        display: block;
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+        background: url(../images/icon/32/like.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-like-active {
+        display: block;
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+        background: url(../images/icon/32/likeactive.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-best {
+        display: block;
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+        background: url(../images/icon/32/best.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-XCircle {
+        display: block;
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+        background: url(../images/icon/32/xcircle.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-heart {
+        display: block;
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+        background: url(../images/icon/32/heart.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-heart-active {
+        display: block;
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+        background: url(../images/icon/32/heartactive.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-main-prev {
+        display: block;
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+        background: url(../images/icon/32/mainprev.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-main-next {
+        display: block;
+        min-width: 32px;
+        width: 32px;
+        height: 32px;
+        background: url(../images/icon/32/mainnext.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+    }
+    &-24 {
+      &-desktop {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/desktop.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-skill-set {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/skill-set.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-info {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/info.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-calendar {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/calendar.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-back-black {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/back-black.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-close {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/close.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-close2 {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/close2.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-folder {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/folder.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-clip {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/clip.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-exit {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/exit.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-lock {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/lock.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-arrowleft {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/arrowleft.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-download {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/download.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-like {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/like.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-like-active {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/like-active.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-best {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/best.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-ranking {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/ranking.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-completion {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/completion.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-view {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/view.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-filter {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/filter.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-android {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/android.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-ios {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/ios.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-medal {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/medal.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-radioCheck {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/radiocheck.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-certification {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/certification.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-skill-prev {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/skill-prev.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-skill-next {
+        display: block;
+        min-width: 24px;
+        width: 24px;
+        height: 24px;
+        background: url(../images/icon/24/skill-next.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+    }
+    &-20 {
+      &-modify {
+        display: block;
+        min-width: 20px;
+        width: 20px;
+        height: 20px;
+        background: url(../images/icon/20/modify.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-view {
+        display: block;
+        min-width: 20px;
+        width: 20px;
+        height: 20px;
+        background: url(../images/icon/20/view.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-home {
+        display: block;
+        min-width: 20px;
+        width: 20px;
+        height: 20px;
+        background: url(../images/icon/20/home.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-home-primary {
+        display: block;
+        min-width: 20px;
+        width: 20px;
+        height: 20px;
+        background: url(../images/icon/20/home-primary.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-mileage {
+        display: block;
+        min-width: 20px;
+        width: 20px;
+        height: 20px;
+        background: url(../images/icon/20/mileage.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-mileage-primary {
+        display: block;
+        min-width: 20px;
+        width: 20px;
+        height: 20px;
+        background: url(../images/icon/20/mileage-primary.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-wallet {
+        display: block;
+        min-width: 20px;
+        width: 20px;
+        height: 20px;
+        background: url(../images/icon/20/wallet.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-wallet-primary {
+        display: block;
+        min-width: 20px;
+        width: 20px;
+        height: 20px;
+        background: url(../images/icon/20/wallet-primary.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+    }
+    &-16 {
+      &-download {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/download.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-doc {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/doc.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-banner-close {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/banner-close.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-menu {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/menu.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-close {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/close.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-arrow {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/arrow.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-arrowleft {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/arrowleft.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-search {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/search.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-pencil {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/pencil.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-play {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/play.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-book {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/book.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-favorites {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/favorites.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-favorites-primary {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/favorites-primary.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-more {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/more.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-calendar {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/calendar.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-filter {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/filter.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-filter-active {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/filteractive.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-toggle {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/arrowtoggle.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-write {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/write.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-like {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/like.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-reply {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/reply.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-like-black {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/likeblack.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-reply-black {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/replyblack.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-reply-primary {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/replyprimary.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-reply-arrow {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/replyarrow.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-arrowbest {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/arrowbest.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-view {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/view.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-apply {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/apply.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-filter-all {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/filter-all.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-select {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/select.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-board-arrow {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/board-arrow.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-link {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/link.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-arrow-primary {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/arrow-primary.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-print {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/print.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-Breadcrumb {
+        display: block;
+        min-width: 16px;
+        width: 16px;
+        height: 16px;
+        background: url(../images/icon/16/breadcrumb.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+    }
+    &-12 {
+      &-play {
+        display: block;
+        min-width: 12px;
+        width: 12px;
+        height: 12px;
+        background: url(../images/icon/12/play.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-play-white {
+        display: block;
+        min-width: 12px;
+        width: 12px;
+        height: 12px;
+        background: url(../images/icon/12/playwhite.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-file {
+        display: block;
+        min-width: 12px;
+        width: 12px;
+        height: 12px;
+        background: url(../images/icon/12/file.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+      &-link {
+        display: block;
+        min-width: 12px;
+        width: 12px;
+        height: 12px;
+        background: url(../images/icon/12/link.svg) no-repeat 50% 50%;
+        background-size: cover;
+      }
+    }
+  }
+}

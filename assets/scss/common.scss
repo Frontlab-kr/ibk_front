@@ -1,0 +1,105 @@
+/*# sourceMappingURL= */
+
+@import url(../../node_modules/pretendard/dist/web/static/pretendard.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import '_icon.scss';
+@import '_override.scss';
+@import '_simplebar.scss';
+
+@mixin text-clamp($lines: 2, $line-height: false) {
+  display: -webkit-box;
+  overflow: hidden;
+  /* autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  word-break: break-all;
+  @if $line-height {
+    max-height: $line-height * $lines * 1rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  html {
+    &.mobile {
+      &-header-hide {
+        .ibk-header {
+          display: none;
+        }
+      }
+      &-footer-hide {
+        .ibk-footer {
+          display: none;
+        }
+      }
+      &-menu-fixed {
+        .ibk {
+          height: 100%;
+        }
+        .ibk-header-test__menu {
+          display: none;
+        }
+        .ibk-header-test__close {
+          min-width: auto;
+          position: absolute;
+          top: 12px;
+          right: 16px;
+        }
+        .p {
+          &-drawer {
+            margin: 0;
+            padding: 0;
+            transition: none;
+            &-left {
+              .p-drawer {
+                width: 100%;
+                min-width: 100%;
+                border: 0;
+                box-shadow: none;
+              }
+            }
+            &-content {
+              padding: 0;
+            }
+            &-mask {
+              position: relative !important;
+            }
+            &-header {
+              .p-button {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.mo {
+  display: none;
+}
+.pc {
+  display: block;
+}
+@media screen and (max-width: 992px) {
+  .mo {
+    display: block;
+  }
+  .pc {
+    display: none;
+  }
+}
+// @import '_layout.scss';
+// @import '_components.scss';
+// @import '_main.scss';
+// @import '_page.scss';
+// @import '_dialog.scss';
+
+
+.disabled {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+  
+}
+
+.ag-header-cell-label {
+  justify-content: center !important;
+}

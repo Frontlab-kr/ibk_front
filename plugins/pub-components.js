@@ -1,0 +1,40 @@
+// import Breadcrumbs from '~/pages/pub/components/Breadcrumbs.vue';
+// import PageGrid from '~/pages/pub/components/PageGrid.vue';
+// import PageLabel from '~/pages/pub/components/PageLabel.vue';
+// import PageSubTitle from '~/pages/pub/components/PageSubTitle.vue';
+// import PageTitle from '~/pages/pub/components/PageTitle.vue';
+// // import DateRange from '~/pages/pub/components/DateRange.vue';
+// import BtnOutline from '~/pages/pub/components/BtnOutline.vue';
+// import BtnPrimary from '~/pages/pub/components/BtnPrimary.vue';
+// import BtnSoft from '~/pages/pub/components/BtnSoft.vue';
+// import Checkbox from '~/pages/pub/components/Checkbox.vue';
+// import CheckboxGroup from '~/pages/pub/components/CheckboxGroup.vue';
+// import Dropdown from '~/pages/pub/components/Dropdown.vue';
+// import InputFile from '~/pages/pub/components/InputFile.vue';
+// import InputSwitch from '~/pages/pub/components/InputSwitch.vue';
+// import InputText from '~/pages/pub/components/InputText.vue';
+// import InputTextarea from '~/pages/pub/components/InputTextarea.vue';
+// import RadioGroup from '~/pages/pub/components/RadioGroup.vue';
+// import TabList from '~/pages/pub/components/TabList.vue';
+
+export default defineNuxtPlugin(({ vueApp: app }) => {
+  // app.component('PageTitle', PageTitle);
+  // app.component('PageSubTitle', PageSubTitle);
+  // app.component('PageLabel', PageLabel);
+  // app.component('PageGrid', PageGrid);
+  // app.component('Breadcrumbs', Breadcrumbs);
+  // // app.component('DateRange', DateRange);
+  // app.component('Dropdown', Dropdown);
+  // app.component('InputText', InputText);
+  // app.component('InputFile', InputFile);
+  // app.component('InputTextarea', InputTextarea);
+  // app.component('BtnOutline', BtnOutline);
+  // app.component('BtnPrimary', BtnPrimary);
+  // app.component('BtnSoft', BtnSoft);
+  //
+  // app.component('RadioGroup', RadioGroup);
+  // app.component('CheckboxGroup', CheckboxGroup);
+  // app.component('Checkbox', Checkbox);
+  // app.component('InputSwitch', InputSwitch);
+  // app.component('TabList', TabList);
+});
