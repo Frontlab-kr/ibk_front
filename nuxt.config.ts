@@ -23,7 +23,7 @@ export default defineNuxtConfig({
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
-    baseURL: '/your-repo-name/',
+    baseURL: '/ibk_front/',
   },
 
   target: 'static', // 정적 사이트로 빌드
