@@ -1,1 +1,0 @@
-import{l as s}from"./CjiTlq4T.js";import{c as o,x as t,o as r}from"./BL-uwq_y.js";const a={class:"ibk"};const e=s({},[["render",function(s,e){return r(),o("div",a,[t(s.$slots,"default")])}]]);export{e as default};
